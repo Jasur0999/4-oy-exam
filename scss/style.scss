@@ -12,6 +12,19 @@
   padding: 0 20px;
 }
 
+/////  DARK  ///////////////
+
+.dark * {
+  background: black !important;
+  color: #fff !important;
+}
+
+.dark * {
+  color: white !important;
+}
+
+///////////////
+
 @font-face {
   font-family: Roboto;
   src: url(../fonts/Roboto-Regular.ttf);
@@ -890,7 +903,7 @@ body {
       align-items: center;
       justify-content: space-between;
       padding-top: 20px;
-      padding-bottom: 200px;
+      padding-bottom: 20px;
       .footer-img {
         display: flex;
         gap: 12px;

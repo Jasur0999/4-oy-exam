@@ -12,6 +12,15 @@
   padding: 0 20px;
 }
 
+.dark * {
+  background: black !important;
+  color: #fff !important;
+}
+
+.dark * {
+  color: white !important;
+}
+
 @font-face {
   font-family: Roboto;
   src: url(../fonts/Roboto-Regular.ttf);
@@ -830,7 +839,7 @@ body .footer-bot .footer-bot-box {
   align-items: center;
   justify-content: space-between;
   padding-top: 20px;
-  padding-bottom: 200px;
+  padding-bottom: 20px;
 }
 body .footer-bot .footer-bot-box .footer-img {
   display: flex;
